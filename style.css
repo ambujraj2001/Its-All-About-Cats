@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap");
+body {
+  background-image: linear-gradient(100deg, #575656, #062e3f);
+  color: #ffdfdb;
+}
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+}
+
+.imageflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-cat {
+  border-radius: 10px;
+  max-width: 300px;
+  height: 300px;
+  width: 100%;
+ 
+}
+
+.bflex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.facts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+
+  border-style: solid;
+  border-color: white
+}
+
+.factofcat {
+  font-family: "Readex Pro", sans-serif;
+}
+
+.loadimage {
+  padding: 5px;
+  background-image: linear-gradient(-100deg, #575656, #062e3f);
+  color: #ffdfdb;
+  font-size: large;
+  font-family: "Readex Pro", sans-serif;
+  border-radius: 5px;
+}
